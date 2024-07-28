@@ -13,7 +13,7 @@ import testRoutes from './routes/test';
 import fileRoutes from './routes/fileRoutes';
 
 const app: Application = express();
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT;
 
 app.use(cors());
 app.use(express.json());
