@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "node --max-old-space-size=4096 dist/index.js"
+    "start": "node --max-old-space-size=4096 -r ts-node/register src/index.ts"
   },
   "keywords": [],
   "author": "",
